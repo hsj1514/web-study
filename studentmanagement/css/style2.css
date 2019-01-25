@@ -1,0 +1,172 @@
+body {
+  margin:0 auto;
+  padding:0;
+}
+
+a {
+  text-decoration : none;
+  color : black;
+}
+
+.logo-text a:hover {
+  font-size : 105%;
+}
+
+a:visited {
+  color : black;
+}
+
+.header {
+  display : inline-block;
+  background-color : #F8F8F8;
+  width : 100%;
+}
+
+.logo {
+  display : table;
+  font-size : 27px;
+  float : left;
+  width : 40%;
+  height : 150px;
+}
+
+.logo-text {
+  display : table-cell;
+  text-align : center;
+  vertical-align : middle;
+}
+
+.money {
+  font-size : 27px;
+  float : left;
+  padding-left : 20px;
+  width : 50%;
+  height : 150px;
+  display : table;
+}
+
+.money-text {
+  display : table-cell;
+  text-align : center;
+  vertical-align : middle;
+}
+
+.transparent {
+  clear : both;
+  height : 10px;
+}
+
+ul {
+  list-style-type : none;
+  padding-left : 0px;
+  margin : 0px;
+}
+
+.main {
+  width : 100%;
+}
+
+.nav {
+  float : left;
+  width : 20%;
+  text-align : center;
+}
+
+.nav li {
+  padding : 5px 0px;
+  border : solid 0.5px;
+  border-color : gray;
+  margin-top : 5px;
+  margin-bottom : 5px;
+  background-color : #F0F0F0;
+  border-radius : 1px;
+}
+
+.nav li:hover {
+  background-color : #F0F8FF;
+  text-decoration-line : underline;
+}
+
+.nav li>a {
+  text-decoration-color: black;
+  display : block;
+}
+
+.main-body {
+  float : left;
+  width : 79.9%;
+  height : ;
+  text-align : center;
+}
+
+.subject {
+  background-color : #F0F0F0;
+  width : 70%;
+  height : 30px;
+  margin-left : 15%;
+  text-align : center;
+}
+
+.studentsubject {
+  display : inline;
+  color : red;
+}
+
+.textarea {
+  width : 200px;
+  height : 100px;
+}
+
+.open-button {
+  width : 100%;
+  height : 35px;
+  background-color : #f46060;
+  border : solid 1px;
+  border-color : gray;
+  border-radius : 2px;
+}
+
+.open-button:hover {
+  opacity : 0.8;
+}
+
+.footer {
+  display : inline-block;
+  width : 100%;
+  height : 60px;
+  text-align : center;
+}
+
+.inputTuition {
+  width : 100px;
+}
+
+.complete-button {
+  width : 80px;
+}
+
+.complete-button-area {
+  text-align : center;
+}
+
+.cancel-button-area {
+  text-align : center;
+}
+
+.closeForm {
+  font-size : 13px;
+  border-radius : 1px;
+  padding : 3px 20px;
+  border : solid 1px;
+  background-color : #f2616e;
+}
+
+.addStudentForm {
+  width : 50%;
+  background-color : #F0F0F0;
+  height : 450px;
+  position : fixed;
+  bottom : 15%;
+  right : 25%;
+  border : solid 1px;
+}
